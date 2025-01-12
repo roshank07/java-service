@@ -1,0 +1,270 @@
+2025-01-11 19:04:34 - Starting EncdecApplication using Java 21.0.5 with PID 8340 (C:\Users\rosha\OneDrive\Desktop\Springboot\encdec\target\classes started by rosha in C:\Users\rosha\OneDrive\Desktop\Springboot\encdec)
+2025-01-11 19:04:34 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-11 19:04:34 - No active profile set, falling back to 1 default profile: "default"
+2025-01-11 19:04:36 - Tomcat initialized with port 8001 (http)
+2025-01-11 19:04:36 - Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:04:36 - Starting service [Tomcat]
+2025-01-11 19:04:36 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11 19:04:36 - Initializing Spring embedded WebApplicationContext
+2025-01-11 19:04:36 - Root WebApplicationContext: initialization completed in 2154 ms
+2025-01-11 19:04:37 - Starting ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:04:37 - Tomcat started on port 8001 (http) with context path '/'
+2025-01-11 19:04:37 - Started EncdecApplication in 4.142 seconds (process running for 4.701)
+2025-01-11 19:05:58 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-11 19:05:58 - Initializing Servlet 'dispatcherServlet'
+2025-01-11 19:05:58 - Completed initialization in 1 ms
+2025-01-11 19:05:58 - Received Encryption request for uuid c9795c73-34a2-4aa3-9657-7dd31f40413b : EncryptionRequest(fileName=certificates/wildcard.pub, data=
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    , uuid=c9795c73-34a2-4aa3-9657-7dd31f40413b)
+2025-01-11 19:05:58 - Converted to XML during encryption for uuid c9795c73-34a2-4aa3-9657-7dd31f40413b : encryptedData = ESnM3Kaq3Mbqlt/hAJYr7jh5pJ1fF0JxLWPPxP4Bk559CiYbBt8ZAHawG8gml0DaQ2EGVWP4nOsTf184Lr+zjaSJenG8yvA/gRmoWPqr10liM9EGTe+AqdcnZxWcQ6VLasaIui+WRYjBWBT3VRd+9g== encryptedAESKey = oFVrFPpx0LoS5kjHtqdrLzaF+pdjBuYyykel9ph+X9uyXz+cbNXewAOUD6x3tEhGmi79iCqGPPTL4uyy8zBq27uZRDIKcUx4eU5uljq5M7cKp3PmGb4sol51zK2D40bj99NnMiArD0Ypzjyyti6klQlbX2NayP6hp/DwuIE6NAU4AYCOGiBRYzGPP3usVnavYYQ8fd44I4T+0JeUoZMUhXHWw1y+Wfi/TDcBo4jDC31wvYWfirRUmyfTXk9gDPsLCEYAtK6RByO+Zw9K0LpnrAw4rvrxi6uGqzqMf7TUJFZpU1FRiBdUFRoUzFvAFBOGD2WLHogPQsnwilwNwpGhIw==
+2025-01-11 19:05:58 - Encryption successful for uuid c9795c73-34a2-4aa3-9657-7dd31f40413b : <EncryptionResult>
+  <EncryptedData>ESnM3Kaq3Mbqlt/hAJYr7jh5pJ1fF0JxLWPPxP4Bk559CiYbBt8ZAHawG8gml0DaQ2EGVWP4nOsTf184Lr+zjaSJenG8yvA/gRmoWPqr10liM9EGTe+AqdcnZxWcQ6VLasaIui+WRYjBWBT3VRd+9g==</EncryptedData>
+  <EncryptedAESKey>oFVrFPpx0LoS5kjHtqdrLzaF+pdjBuYyykel9ph+X9uyXz+cbNXewAOUD6x3tEhGmi79iCqGPPTL4uyy8zBq27uZRDIKcUx4eU5uljq5M7cKp3PmGb4sol51zK2D40bj99NnMiArD0Ypzjyyti6klQlbX2NayP6hp/DwuIE6NAU4AYCOGiBRYzGPP3usVnavYYQ8fd44I4T+0JeUoZMUhXHWw1y+Wfi/TDcBo4jDC31wvYWfirRUmyfTXk9gDPsLCEYAtK6RByO+Zw9K0LpnrAw4rvrxi6uGqzqMf7TUJFZpU1FRiBdUFRoUzFvAFBOGD2WLHogPQsnwilwNwpGhIw==</EncryptedAESKey>
+</EncryptionResult>
+2025-01-11 19:05:58 - Received Decryption request for uuid c9795c73-34a2-4aa3-9657-7dd31f40413b : DecryptionRequest(fileName=certificates/wildcardpv.key, data=<EncryptionResult><EncryptedData>b9R4cQT9uUTIcuqzvwnOHIAnq73nCCdhhGzicoPis1Jv5uuR5Esv0k73pK+g2pJ51/KMZQ3qCieavh9yEM/T+mqEdYkaaTguSrrFu6MxD3tyMwKMtmdYlAO//NEcEf8A9dOsZBNzknFBA+r0Cnzscg==</EncryptedData><EncryptedAESKey>LW6HeH8FQSV469sA22Xat4vCv7t/K2md7GqaADBKTMcEgk61rCsPyNpJZKOQQ1C1rWFr5PoNjrw/j/l3lb6f3jGJscEGIWHfbBtgAdTPnY67bezD1AUgjHalBxkG099AwOKnacFZ4r9diKJsgHLAmtZaiwGaOWxtfIJxNwr0EZPujMHjX9RFVwlAZII+LbBYoygjmqpRncjw4EmAe7wkjw7ipKtDnzltyedq8OYxxcWH3ho3EcS9ne1M3o/XB8PQmRD5eABj3uNAPxitLiI9p0qXNpWqDXNMvoe9+mlrXmCUPviMUqTaQ6o+rBbUnaJhCXHM1tdczbr58nAHvcEGlw==</EncryptedAESKey></EncryptionResult>
+, uuid=c9795c73-34a2-4aa3-9657-7dd31f40413b)
+2025-01-11 19:05:58 - Decryption successful for uuid c9795c73-34a2-4aa3-9657-7dd31f40413b : 
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    
+2025-01-11 19:11:06 - Received Encryption request for uuid null : EncryptionRequest(fileName=cert/wildcard, data=lnlfdl, uuid=null)
+2025-01-11 19:11:06 - Unexpected error occured during decryption for uuid null : cert\wildcard
+java.nio.file.NoSuchFileException: cert\wildcard
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:47)
+	at com.java.service.encdec.Encryptor.encryption(Encryptor.java:24)
+	at com.java.service.encdec.EncController.createEncryptionRequestV1(EncController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-11 19:12:21 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11 19:12:21 - Graceful shutdown complete
+2025-01-11 19:12:26 - Starting EncdecApplication using Java 21.0.5 with PID 15312 (C:\Users\rosha\OneDrive\Desktop\Springboot\encdec\target\classes started by rosha in C:\Users\rosha\OneDrive\Desktop\Springboot\encdec)
+2025-01-11 19:12:26 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-11 19:12:26 - No active profile set, falling back to 1 default profile: "default"
+2025-01-11 19:12:29 - Tomcat initialized with port 8001 (http)
+2025-01-11 19:12:29 - Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:12:29 - Starting service [Tomcat]
+2025-01-11 19:12:29 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11 19:12:29 - Initializing Spring embedded WebApplicationContext
+2025-01-11 19:12:29 - Root WebApplicationContext: initialization completed in 2543 ms
+2025-01-11 19:12:29 - Starting ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:12:29 - Tomcat started on port 8001 (http) with context path '/'
+2025-01-11 19:12:29 - Started EncdecApplication in 4.613 seconds (process running for 5.119)
+2025-01-11 19:12:43 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11 19:12:43 - Graceful shutdown complete
+2025-01-11 19:12:56 - Starting EncdecApplication using Java 21.0.5 with PID 13228 (C:\Users\rosha\OneDrive\Desktop\Springboot\encdec\target\classes started by rosha in C:\Users\rosha\OneDrive\Desktop\Springboot\encdec)
+2025-01-11 19:12:56 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-11 19:12:56 - No active profile set, falling back to 1 default profile: "default"
+2025-01-11 19:12:58 - Tomcat initialized with port 8001 (http)
+2025-01-11 19:12:58 - Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:12:58 - Starting service [Tomcat]
+2025-01-11 19:12:58 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11 19:12:58 - Initializing Spring embedded WebApplicationContext
+2025-01-11 19:12:58 - Root WebApplicationContext: initialization completed in 2239 ms
+2025-01-11 19:12:59 - Starting ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:12:59 - Tomcat started on port 8001 (http) with context path '/'
+2025-01-11 19:12:59 - Started EncdecApplication in 4.272 seconds (process running for 4.786)
+2025-01-11 19:13:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-11 19:13:04 - Initializing Servlet 'dispatcherServlet'
+2025-01-11 19:13:04 - Completed initialization in 2 ms
+2025-01-11 19:13:04 - Received Encryption request for uuid null : EncryptionRequest(fileName=cert/wildcard, data=lnlfdl, uuid=null)
+2025-01-11 19:13:04 - Unexpected error occured during encryption for uuid null : cert\wildcard
+java.nio.file.NoSuchFileException: cert\wildcard
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:47)
+	at com.java.service.encdec.Encryptor.encryption(Encryptor.java:24)
+	at com.java.service.encdec.EncController.createEncryptionRequestV1(EncController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-11 19:14:50 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11 19:14:50 - Graceful shutdown complete
+2025-01-11 19:14:53 - Starting EncdecApplication using Java 21.0.5 with PID 3208 (C:\Users\rosha\OneDrive\Desktop\Springboot\encdec\target\classes started by rosha in C:\Users\rosha\OneDrive\Desktop\Springboot\encdec)
+2025-01-11 19:14:53 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-11 19:14:53 - No active profile set, falling back to 1 default profile: "default"
+2025-01-11 19:14:55 - Tomcat initialized with port 8001 (http)
+2025-01-11 19:14:55 - Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:14:55 - Starting service [Tomcat]
+2025-01-11 19:14:55 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11 19:14:55 - Initializing Spring embedded WebApplicationContext
+2025-01-11 19:14:55 - Root WebApplicationContext: initialization completed in 2152 ms
+2025-01-11 19:14:56 - Starting ProtocolHandler ["http-nio-8001"]
+2025-01-11 19:14:56 - Tomcat started on port 8001 (http) with context path '/'
+2025-01-11 19:14:56 - Started EncdecApplication in 3.932 seconds (process running for 4.443)
+2025-01-11 19:15:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-11 19:15:00 - Initializing Servlet 'dispatcherServlet'
+2025-01-11 19:15:00 - Completed initialization in 2 ms
+2025-01-11 19:15:00 - Received Encryption request for uuid null : EncryptionRequest(fileName=cert/wildcard, data=lnlfdl, uuid=null)
+2025-01-11 19:15:00 - Encryption error for uuid null : Error loading public key
+com.java.service.encdec.exception.EncryptionException: Error loading public key
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:60)
+	at com.java.service.encdec.Encryptor.encryption(Encryptor.java:27)
+	at com.java.service.encdec.EncController.createEncryptionRequestV1(EncController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.file.NoSuchFileException: cert\wildcard
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:51)
+	... 50 common frames omitted
+2025-01-11 19:23:35 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11 19:23:35 - Graceful shutdown complete

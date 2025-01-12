@@ -1,0 +1,325 @@
+2025-01-12 09:10:44 - Starting EncdecApplication using Java 21.0.5 with PID 7568 (C:\Users\rosha\OneDrive\Desktop\Springboot\encdec\target\classes started by rosha in C:\Users\rosha\OneDrive\Desktop\Springboot\encdec)
+2025-01-12 09:10:44 - Running with Spring Boot v3.4.1, Spring v6.2.1
+2025-01-12 09:10:44 - No active profile set, falling back to 1 default profile: "default"
+2025-01-12 09:10:47 - Tomcat initialized with port 8001 (http)
+2025-01-12 09:10:47 - Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-12 09:10:47 - Starting service [Tomcat]
+2025-01-12 09:10:47 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-12 09:10:47 - Initializing Spring embedded WebApplicationContext
+2025-01-12 09:10:47 - Root WebApplicationContext: initialization completed in 2773 ms
+2025-01-12 09:10:48 - Starting ProtocolHandler ["http-nio-8001"]
+2025-01-12 09:10:48 - Tomcat started on port 8001 (http) with context path '/'
+2025-01-12 09:10:48 - Started EncdecApplication in 5.031 seconds (process running for 5.714)
+2025-01-12 09:11:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-12 09:11:37 - Initializing Servlet 'dispatcherServlet'
+2025-01-12 09:11:37 - Completed initialization in 1 ms
+2025-01-12 09:11:37 - Received Encryption request for uuid 815b6f77-1cf5-4fc2-8ed4-fa8785452a64 : EncryptionRequest(fileName=certificates/wildcard.pub, data=
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    , uuid=815b6f77-1cf5-4fc2-8ed4-fa8785452a64)
+2025-01-12 09:11:37 - Converted to XML during encryption for uuid 815b6f77-1cf5-4fc2-8ed4-fa8785452a64 : encryptedData = DDk25VIZw8tiZLSO4cDoIbLHifcd0p+LNFPkulJ+xGF5yEeYCXkZgNN+ZOBCitOPsZwBZux9ScuAxNqbR5ocPZKI+PAuTZH3kSTPC+kaeycS/4DgzX85tm1xdXOtZ6fekOKr5XS9q1LZV7RqWlozyg== encryptedAESKey = KzNC3TX4slQESB1iGY25jfz0HgUYIohXk0K/3/RQfHIOuJyjeN9BYRJOfzbIcncHy7Fw+0kuoW6+F18lUAV0hf/z9MCrnZ3FwmjqJk9ZDHnvCzEpqbwfprAF4b+wwlKNa76zJBB6jiiTolnM2brmb1FPA96H2BotSf5mBwu5WlO4eSim2ILTiRt64lzpetfimZGmlo3wdrpEG1Bv3/515bNFYNC/lBBEaS60dNXZBCgVwvBHC0FsXJCSNXHofyK6jsIEbqXRjJE65kpVSntRzbven+wc33a0fwJNkfyuaAztpDjP3MV7rtQWkiW/rVDujh8bC7KiWOYUmLPIvVcxmw==
+2025-01-12 09:11:37 - Encryption successful for uuid 815b6f77-1cf5-4fc2-8ed4-fa8785452a64 : <EncryptionResult>
+  <EncryptedData>DDk25VIZw8tiZLSO4cDoIbLHifcd0p+LNFPkulJ+xGF5yEeYCXkZgNN+ZOBCitOPsZwBZux9ScuAxNqbR5ocPZKI+PAuTZH3kSTPC+kaeycS/4DgzX85tm1xdXOtZ6fekOKr5XS9q1LZV7RqWlozyg==</EncryptedData>
+  <EncryptedAESKey>KzNC3TX4slQESB1iGY25jfz0HgUYIohXk0K/3/RQfHIOuJyjeN9BYRJOfzbIcncHy7Fw+0kuoW6+F18lUAV0hf/z9MCrnZ3FwmjqJk9ZDHnvCzEpqbwfprAF4b+wwlKNa76zJBB6jiiTolnM2brmb1FPA96H2BotSf5mBwu5WlO4eSim2ILTiRt64lzpetfimZGmlo3wdrpEG1Bv3/515bNFYNC/lBBEaS60dNXZBCgVwvBHC0FsXJCSNXHofyK6jsIEbqXRjJE65kpVSntRzbven+wc33a0fwJNkfyuaAztpDjP3MV7rtQWkiW/rVDujh8bC7KiWOYUmLPIvVcxmw==</EncryptedAESKey>
+</EncryptionResult>
+2025-01-12 09:11:37 - Received Decryption request for uuid 815b6f77-1cf5-4fc2-8ed4-fa8785452a64 : DecryptionRequest(fileName=certificates/wildcardpv.key, data=<EncryptionResult><EncryptedData>Ye6LAdGO4VON2pSkg0H+BisrSb+gD3JX12ctXkbaQX9cvNvG3gSZIZRKD+DP6g4r2iS57PTwGHXCtUhpDH4JwpzGCMJYUQZy/p6dKTGdhrDQ3Q7viRblFuNS+McQo0MuwA3TIdoePHtk1RgvKF9c6g==</EncryptedData><EncryptedAESKey>YUSIfhMLJA82ynbZjiourEg57bwOoDV+AWjbO/T5Jc2Fog9cphgT/QSMMpmNxtpwsnjEoC7wXdb7DlNHsBeaB+9eXNiyDNiz7HZ7Gw9t6XTgKigDeXPcyXBUsz80kXIUXuOAF/0y1uBHVZ7bVzupiYvxFYwmdplWwVNwv3kYXTssPYTbR6rQc193seCTrN4nPMFDMJ3HpHgSie1SMHkgUHhtPO4mYrZcd2722feHqJIuSt5OyzbIri+MF9JJLfuzI5ve3+iyptKHahNd081fb4rXkXsdKBMLsEu+d5mQNDz2kaEZgMNr3V2twdU3/odZi2t2Hr869s+ANg3WGJf5iw==</EncryptedAESKey></EncryptionResult>
+, uuid=815b6f77-1cf5-4fc2-8ed4-fa8785452a64)
+2025-01-12 09:11:38 - Decryption successful for uuid 815b6f77-1cf5-4fc2-8ed4-fa8785452a64 : 
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    
+2025-01-12 09:11:53 - Received Encryption request for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : EncryptionRequest(fileName=certificates/wildcard.pub, data=
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    , uuid=ebe0dc0f-bbe8-43b0-980a-a76333ce4147)
+2025-01-12 09:11:53 - Converted to XML during encryption for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : encryptedData = hKmJxIjrO/l+ARvFZ0Mc33xGrVozbvHS1aW2LQyu4gUIcc3q+G2SAXSBQGskghAcal2gszJV+H2ymMD+XEmayRwn9mpC09zg08DuTAI2pD7Z3TA9jrbj/kqLRlwuU7/elmRGWxlooFb2rpGpkxo5CQ== encryptedAESKey = IeX44Gp2AvjCXCFX3wTDCuGHQWl2tIDSRcx+L5K8Sj30Mp66E4ZT/QEnXyUw5S0V0JWGXxtNckqZLT7oroAJ7eAwpm6Nqi9F1x2DevHFxl4C4L25AMY7uieFIgok/zTguZjGNUSdHAez7nBmUF2yTbe09knjxOfoP/AkKFOXPmQmRx8P40oDjyIZHrVlfFYMKOkHRbTjqaRT4qps+tc2dWSkSH2M9uocvIG27oj8HvpGseOg2rmlokywUW7WcVZOF8HF1ORo1Wpi+HQ9adYy76QzmInrKv/G4j7zNJ6C+SCoLa+mzTbcZgH16UHhlZPzLAuG0ubyyjOr/3DB0S7qPw==
+2025-01-12 09:11:53 - Encryption successful for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : <EncryptionResult>
+  <EncryptedData>hKmJxIjrO/l+ARvFZ0Mc33xGrVozbvHS1aW2LQyu4gUIcc3q+G2SAXSBQGskghAcal2gszJV+H2ymMD+XEmayRwn9mpC09zg08DuTAI2pD7Z3TA9jrbj/kqLRlwuU7/elmRGWxlooFb2rpGpkxo5CQ==</EncryptedData>
+  <EncryptedAESKey>IeX44Gp2AvjCXCFX3wTDCuGHQWl2tIDSRcx+L5K8Sj30Mp66E4ZT/QEnXyUw5S0V0JWGXxtNckqZLT7oroAJ7eAwpm6Nqi9F1x2DevHFxl4C4L25AMY7uieFIgok/zTguZjGNUSdHAez7nBmUF2yTbe09knjxOfoP/AkKFOXPmQmRx8P40oDjyIZHrVlfFYMKOkHRbTjqaRT4qps+tc2dWSkSH2M9uocvIG27oj8HvpGseOg2rmlokywUW7WcVZOF8HF1ORo1Wpi+HQ9adYy76QzmInrKv/G4j7zNJ6C+SCoLa+mzTbcZgH16UHhlZPzLAuG0ubyyjOr/3DB0S7qPw==</EncryptedAESKey>
+</EncryptionResult>
+2025-01-12 09:11:53 - Received Decryption request for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : DecryptionRequest(fileName=certificates/wildcardpv.key, data=<EncryptionResult><EncryptedData>n0WVpbRVUxFy8yFYnpUdeM8IN7mhfdbcVwaBGf2Pr1Wi4WJEyvin7+YPwvVxI8Rh3AviWdi5eE36e5JwjMZb7jSyApdejv0c6G2pmist5Anv6DoZ8frxQZid8Qo2UBn9pUSgBVi5n315G0f3Qye/jA==</EncryptedData><EncryptedAESKey>WXwstXtmx3wwPfQVKKj1/WgZW/JQ/P0VByCH9rePkg3KwI7s9bV+hzNmVZVykISSBpDynXJEwj1SZJFTsmvTaz8omnSAC6o/121s3IEMik/SdlVhhgxrCJYSh/CI3+AMiAYYn9P+DXlVMznOG5uLpmhhHuaQfmLY4Ktp/izqL/UQflgUfyqRwwTsBXuJigM3JxudyTvdLzspuZuYgnZw+E3lQAzpeJrLhrBUFND2uADRTiLSMHBv13slAjQShmdHmpSzxv9q59rFR+YG+rKuujXaXkoWt/qoqo1EQjh/x7v3186BlDxTAGms6qN/bVGi1TT7J84WP5JTZmgXtCd5ig==</EncryptedAESKey></EncryptionResult>
+, uuid=ebe0dc0f-bbe8-43b0-980a-a76333ce4147)
+2025-01-12 09:11:53 - Decryption successful for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : 
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    
+2025-01-12 09:11:57 - Received Encryption request for uuid 18c44aa1-797a-45f1-b4d4-3f13335ca6d9 : EncryptionRequest(fileName=certificates/wildcard.pub, data=
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    , uuid=18c44aa1-797a-45f1-b4d4-3f13335ca6d9)
+2025-01-12 09:11:57 - Converted to XML during encryption for uuid 18c44aa1-797a-45f1-b4d4-3f13335ca6d9 : encryptedData = c2cl2MgKsl7VIqca9VgRXVV+GQNkIautq0PCfWQslL9J+h+oig2JekYsBo4IMBNgv3ElEDnm1SYbIMow6H5Og0Lphzq784WT8uZBudH63z1Ij5x3P66FIFga6/D5ZdjZ7h4s605LpNAxH4aGE+BBow== encryptedAESKey = CMIO4rkgjl/5hkflK2NFYIy+1e7Z5CGznYn5g9j6j5oaTeZcC/fepHWMIY/mk8MSUL4tu7GVZcqsFSpokTVxhQ5ejWuqFwr4RYCfllKOSY7zE29t1I3C1YFucpI8XXSocGgPHETjPbRPf2jDtLe0muArPKLm5UijG4XP7CZXIy/Ml2C5eFXX2SbrS3irU6yD4WpqEhgJQATjk3MaxNWkMM3TEGhF+VkOWXTCpwqt3aoN+IeCvrd1VOx8/BAILA3ikC2tHyz+trCI5eIWxosNuRrrYRshA0w4ObeBqyYoy0iC3JDVw+AeUhuF6eIP74/hLXWb6ocOpT4qAlijYnLLaQ==
+2025-01-12 09:11:57 - Encryption successful for uuid 18c44aa1-797a-45f1-b4d4-3f13335ca6d9 : <EncryptionResult>
+  <EncryptedData>c2cl2MgKsl7VIqca9VgRXVV+GQNkIautq0PCfWQslL9J+h+oig2JekYsBo4IMBNgv3ElEDnm1SYbIMow6H5Og0Lphzq784WT8uZBudH63z1Ij5x3P66FIFga6/D5ZdjZ7h4s605LpNAxH4aGE+BBow==</EncryptedData>
+  <EncryptedAESKey>CMIO4rkgjl/5hkflK2NFYIy+1e7Z5CGznYn5g9j6j5oaTeZcC/fepHWMIY/mk8MSUL4tu7GVZcqsFSpokTVxhQ5ejWuqFwr4RYCfllKOSY7zE29t1I3C1YFucpI8XXSocGgPHETjPbRPf2jDtLe0muArPKLm5UijG4XP7CZXIy/Ml2C5eFXX2SbrS3irU6yD4WpqEhgJQATjk3MaxNWkMM3TEGhF+VkOWXTCpwqt3aoN+IeCvrd1VOx8/BAILA3ikC2tHyz+trCI5eIWxosNuRrrYRshA0w4ObeBqyYoy0iC3JDVw+AeUhuF6eIP74/hLXWb6ocOpT4qAlijYnLLaQ==</EncryptedAESKey>
+</EncryptionResult>
+2025-01-12 09:11:57 - Received Decryption request for uuid 18c44aa1-797a-45f1-b4d4-3f13335ca6d9 : DecryptionRequest(fileName=certificates/wildcardpv.key, data=<EncryptionResult><EncryptedData>GxwZ9E5zthYrwbv8CqK4qbjhJizAHHM1mWtKdEJPmUZmj8yUQwJZ5tkI0s6PpJJwJ5RDvsHPC+Ext37uMEBL+jEKj1ay+g8IEUwD6YNYBSh5ctDXZVX2OrvBelBb7VRAxn2cOvXIGEGzXDkyoQA7jA==</EncryptedData><EncryptedAESKey>OoqhLuSdWPWBcwLmGcluKeHOydjf3i4EezgPfZDCFS5p3cGfdpUFcu+MzVqD7koWhTxwkRWcvxeniQxCiMlr3H75aLxBcad87Gkz8UjYpqrnkdJXe3dcwGAFXxWU5f6L0XeWIKTtXz3Yv2xa4At+ft0gRzAvSQJh2KfWbL2xB876Wz9809tkYFVxjztOOoWLmtYybmudbOS7FWMaMgcsFvj0zlk05IQwDmNww0A4s7XP4+Im8PWeYeEBVRRft+71EfGVOSFMGr8StwtUu4X3Qcwsu+Owx2SdyZecGClIU8hO4ZbunD7+lSQZE9vB5Pix4RLrkWFrsK5w83pcLOGNYA==</EncryptedAESKey></EncryptionResult>
+, uuid=18c44aa1-797a-45f1-b4d4-3f13335ca6d9)
+2025-01-12 09:11:57 - Decryption successful for uuid 18c44aa1-797a-45f1-b4d4-3f13335ca6d9 : 
+      <data>
+        <name>Roshannnn</name>
+        <location>Mumbai</location>
+      </data>
+    
+2025-01-12 09:13:38 - Received Encryption request for uuid null : EncryptionRequest(fileName=cert/wildcard, data=lnlfdl, uuid=null)
+2025-01-12 09:13:38 - Encryption error for uuid null : Error loading public key
+com.java.service.encdec.exception.EncryptionException: Error loading public key
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:56)
+	at com.java.service.encdec.Encryptor.encryption(Encryptor.java:27)
+	at com.java.service.encdec.EncController.createEncryptionRequestV1(EncController.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.file.NoSuchFileException: cert\wildcard
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Encryptor.loadPublicKey(Encryptor.java:47)
+	... 50 common frames omitted
+2025-01-12 09:14:37 - Received Decryption request for uuid null : DecryptionRequest(fileName=cert/wildcard, data=lnlfdl, uuid=null)
+2025-01-12 09:14:37 - Decryption error for uuid null : Error loading private key
+com.java.service.encdec.exception.DecryptionException: Error loading private key
+	at com.java.service.encdec.Decryptor.loadPrivateKey(Decryptor.java:59)
+	at com.java.service.encdec.Decryptor.decryption(Decryptor.java:26)
+	at com.java.service.encdec.DecController.createDecryptionRequestV1(DecController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.file.NoSuchFileException: cert\wildcard
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Decryptor.loadPrivateKey(Decryptor.java:50)
+	... 50 common frames omitted
+2025-01-12 09:15:30 - Received Decryption request for uuid null : DecryptionRequest(fileName=certificate/wildcardpv.key, data=lnlfdl, uuid=null)
+2025-01-12 09:15:30 - Decryption error for uuid null : Error loading private key
+com.java.service.encdec.exception.DecryptionException: Error loading private key
+	at com.java.service.encdec.Decryptor.loadPrivateKey(Decryptor.java:59)
+	at com.java.service.encdec.Decryptor.decryption(Decryptor.java:26)
+	at com.java.service.encdec.DecController.createDecryptionRequestV1(DecController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.file.NoSuchFileException: certificate\wildcardpv.key
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at com.java.service.encdec.Decryptor.loadPrivateKey(Decryptor.java:50)
+	... 50 common frames omitted
+2025-01-12 09:15:58 - Received Decryption request for uuid null : DecryptionRequest(fileName=certificates/wildcardpv.key, data=lnlfdl, uuid=null)
+2025-01-12 09:15:58 - Unexpected error occured during decryption for uuid null : Content is not allowed in prolog.
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:262)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at com.java.service.encdec.Decryptor.decryption(Decryptor.java:31)
+	at com.java.service.encdec.DecController.createDecryptionRequestV1(DecController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-12 09:18:46 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)]
+2025-01-12 09:24:46 - Received Decryption request for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : DecryptionRequest(fileName=certificates/wildcardpv.key, data=<EncryptionResult><EncryptedData>your-encrypted-data</EncryptedData><EncryptedAESKey>your-encrypted-key</EncryptedAESKey></EncryptionResult>, uuid=ebe0dc0f-bbe8-43b0-980a-a76333ce4147)
+2025-01-12 09:24:46 - Validation error in Decryption request for uuid ebe0dc0f-bbe8-43b0-980a-a76333ce4147 : Illegal base64 character 2d
+2025-01-12 10:11:02 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-12 10:11:02 - Graceful shutdown complete
